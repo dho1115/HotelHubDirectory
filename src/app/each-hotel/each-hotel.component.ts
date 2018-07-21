@@ -8,8 +8,8 @@ import {HotelQualities} from '../hotel-qualities'; //How to write: import{[the n
 })
 
 export class EachHotelComponent implements OnInit {
-  @Input() 
-  Vegas: HotelQualities;
+  
+  @Input() hotel1: HotelQualities;
   
   constructor() { 
     
