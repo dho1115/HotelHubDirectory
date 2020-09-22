@@ -10,9 +10,10 @@ export class HomeComponent implements OnInit {
   @Input() HotelQualities;
   
   HotelDirectory: HotelQualities[];
-  
+  hotel1;
   constructor() { 
-    this.hotel1.name = "MGM";
+    this.hotel1 = {name: 'Marriott', city: 'Los Angeles', state: 'CA'};
+    this.HotelDirectory.push(this.hotel1);
   }
 
   ngOnInit() {

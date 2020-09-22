@@ -7,15 +7,6 @@ import {HotelQualities} from '../hotel-qualities'; //How to write: import{[the n
   styleUrls: ['./each-hotel.component.css']
 })
 
-export class EachHotelComponent implements OnInit {
-  
+export class EachHotelComponent {
   @Input() hotel1: HotelQualities;
-  
-  constructor() { 
-    
-  }
-
-  ngOnInit() {
-  }
-
 }
